@@ -9,7 +9,7 @@ namespace TP2_Lab
     public class Casa:Propiedad
     {
         private int diasPermitidos; //dias minimo
-        //private int diasTotales;     //dias totales
+        //private int diasTotales;     //dias totales //nico bruto esto si va...
         Propietario miPropietario;
 
         public Casa(int diasPermitidos,Propietario miPropietario,string direccion, int cantCamas, bool[]servicios)
